@@ -1,0 +1,74 @@
+Examen Final: "Matrix Reloaded: Salvando la Humanidad con Java"
+Introducción Contextual:
+Bienvenidos al último desafío del semestre. La humanidad se encuentra al borde del colapso. La Matrix, un sistema virtual diseñado para controlar nuestras mentes, tiene un fallo crítico que solo vos podés resolver. El Oráculo ha dejado dos píldoras: la píldora roja y la píldora azul. La elección está en tus manos, pero ten en cuenta que cada una te llevará por caminos diferentes.
+
+Tu misión es completar y optimizar un sistema de gestión de agentes y anomalías en el contexto de la Matrix. Parte del código ha desaparecido en una realidad alterna, y depende de ti reconstruirlo. Cada elección te proporcionará un requerimiento específico para salvar a la humanidad.
+
+10 Requerimientos para la Aplicación (Basados en la Temática de Matrix)
+Cada estudiante deberá elegir un requerimiento y desarrollarlo para completar la funcionalidad de la aplicación. Todos los requerimientos están diseñados para tener la misma dificultad, involucrando conceptos de arquitectura, manejo de excepciones, herencia, objetos y el paradigma orientado a objetos.
+
+Requerimiento 1: Incrementar Nivel del Agente
+Descripción: Crear un método para incrementar el nivel de un agente.
+Tareas:
+Añadir un atributo nivel a la clase Agent.
+Crear un método incrementarNivel() que aumente el nivel en 1.
+Mostrar el nivel actual del agente.
+
+Requerimiento 2: Recompensa por Misión
+Descripción: Registrar una recompensa para las misiones completadas por un agente.
+Tareas:
+Añadir un atributo recompensas (lista de strings) a la clase Agent.
+Crear un método registrarRecompensa(String recompensa) que agregue recompensas a la lista.
+Mostrar las recompensas actuales del agente.
+
+Requerimiento 3: Asignar Anomalía
+Descripción: Permitir asignar una anomalía específica a un agente.
+Tareas:
+Crear un método asignarAnomalia(Anomaly anomalia) en la clase Agent.
+Añadir un atributo anomaliasAsignadas (lista de objetos Anomaly) a la clase Agent.
+Mostrar las anomalías asignadas al agente.
+
+Requerimiento 4: Equipamiento Simple
+Descripción: Asignar un equipo a un agente, limitado a un único equipo.
+Tareas:
+Añadir un atributo equipoActual (string) a la clase Agent.
+Crear un método asignarEquipo(String equipo) que establezca el equipo actual del agente.
+Mostrar el equipo asignado al agente.
+
+Requerimiento 5: Clasificación de Anomalías
+Descripción: Clasificar anomalías por nivel de peligrosidad.
+Tareas:
+Crear un método clasificarAnomaliasPorPeligrosidad(List<Anomaly> anomalías) que agrupe las anomalías en niveles (bajo, medio, alto).
+Mostrar la clasificación en consola.
+
+Requerimiento 6: Reporte Básico de Actividad
+Descripción: Generar un reporte con las misiones completadas y anomalías neutralizadas por un agente.
+Tareas:
+Crear un método generarReporte() en la clase Agent.
+Mostrar en consola las misiones completadas y anomalías asignadas.
+
+Requerimiento 7: Estadísticas Simples
+Descripción: Mostrar estadísticas básicas del sistema.
+Tareas:
+Contar el número total de agentes y anomalías registrados.
+Mostrar en consola los totales.
+
+Requerimiento 8: Entrenamiento Simple
+Descripción: Mejorar las habilidades de un agente mediante un entrenamiento.
+Tareas:
+Añadir un método entrenar(String habilidad, int incremento) en la clase Agent.
+Incrementar el valor de la habilidad específica en el agente.
+Mostrar las habilidades del agente después del entrenamiento.
+
+Requerimiento 9: Comparación Rápida de Habilidades
+Descripción: Comparar las habilidades entre dos agentes.
+Tareas:
+Crear un método compararHabilidades(Agent otroAgente) en la clase Agent.
+Mostrar en consola qué agente tiene la habilidad más alta para cada atributo.
+
+Requerimiento 10: Simulación Simple de Misión
+Descripción: Ejecutar una simulación rápida de éxito o fracaso en una misión.
+Tareas:
+Crear un método simularMision(int dificultad) en la clase Agent.
+Determinar éxito si las habilidades del agente superan la dificultad.
+Mostrar el resultado de la simulación.
